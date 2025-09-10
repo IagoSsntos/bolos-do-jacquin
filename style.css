@@ -167,7 +167,16 @@ footer{
     align-items: center;
 }
 
-footerp{
+footer p{
     font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
 
+/*media */
+
+@media screen and (max-width: 600px){
+   .banner{
+     aspect-ratio: 2.0;
+   }
 }
